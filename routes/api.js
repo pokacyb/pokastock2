@@ -15,7 +15,7 @@ let XMLHttpRequest = require('xmlhttprequest').XMLHttpRequest
 
 module.exports = function(app) {
 
-  let uri = 'mongodb+srv://user1:XHsC76vUnr4ZaW5F@glitch.9bgb2.mongodb.net/stock_price_checker?retryWrites=true&w=majority'
+  let uri = 'mongodb+srv://stockaddict:' + process.env.PW + '@glitch.9bgb2.mongodb.net/stock_price_checker?retryWrites=true&w=majority'
 
   mongoose.connect(uri, { useNewUrlParser: true, useUnifiedTopology: true })
 
