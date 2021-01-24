@@ -21,3 +21,7 @@ Full stack JavaScript app which checks the Nasdaq stock prices in real time and 
 `{"stockData":{"stock":"MSFT","price":"62.30","rel_likes":-1},"stock":"GOOG","price":"786.90","rel_likes":1}]}`
 
 [live version](https://pokastock2.pokacyb.repl.co/)
+
+**To do**
+- Remove vulnerabilities
+- Better the front end of the app
